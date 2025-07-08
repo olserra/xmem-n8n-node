@@ -1,0 +1,43 @@
+{
+  "name": "n8n-nodes-xmem",
+  "version": "1.0.0",
+  "description": "Official n8n community node for xMem: open-source memory orchestrator for LLMs. Integrate xMem memory/session/agent APIs with n8n workflows.",
+  "main": "dist/nodes/XMem/index.js",
+  "types": "dist/nodes/XMem/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olserra/xmem-n8n-node.git"
+  },
+  "keywords": [
+    "n8n-nodes",
+    "n8n",
+    "xmem",
+    "memory",
+    "llm",
+    "rag",
+    "community-node",
+    "ai",
+    "vector",
+    "agent",
+    "session"
+  ],
+  "author": "xMem Contributors <contact@xmem.xyz>",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/olserra/xmem-n8n-node/issues"
+  },
+  "homepage": "https://github.com/olserra/xmem-n8n-node#readme",
+  "dependencies": {
+    "axios": "^1.10.0",
+    "n8n-core": "^1.14.1",
+    "n8n-workflow": "^1.82.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
