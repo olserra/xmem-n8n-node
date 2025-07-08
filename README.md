@@ -47,7 +47,7 @@ You can use the built-in HTTP Request node in n8n to call xMem endpoints. Exampl
 
 ```json
 {
-  "url": "https://your-xmem.com/api/session-memory",
+  "url": "https://xmem.xyz/api/session-memory",
   "method": "POST",
   "headers": {
     "Content-Type": "application/json",
